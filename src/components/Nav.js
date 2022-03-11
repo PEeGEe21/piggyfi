@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import styles from './Layout.module.css'
+import Link from 'next/link'
 
 
 
@@ -8,16 +10,29 @@ export default function Nav({children}) {
     <div className="">
                     <nav id="site-navigation" className=" inline">
                         <ul className="menu inline-flex ">
-                            <li className={styles.nav_item}><a href="/" className={styles.nav_link}>Products</a>
+                            <li className={styles.nav_item}>
+                                <Link href="/">
+                                    <a className={styles.nav_link}>Products</a>
+                                </Link>
 
                             </li>
-                            <li className={styles.nav_item}><a href="" className={styles.nav_link}>FAQs</a>
+                            <li className={styles.nav_item}>
+                                <Link href="">
+                                <a className={styles.nav_link}>FAQs</a>
+                                </Link>
                                 
                             </li>
-                            <li className={styles.nav_item}><a href="" className={styles.nav_link}>Support</a>
+                            <li className={styles.nav_item}>
+                                <Link href="">
+                                    <a className={styles.nav_link}>Support</a>
+                                </Link>
                                 
                             </li>
-                            <li className={styles.nav_item}><a href="contact.html" className={styles.nav_link}>Contact</a></li>
+                            <li className={styles.nav_item}>
+                                <Link href="">
+                                <a className={styles.nav_link}>Contact</a>
+                                </Link>
+                            </li>
                             
                         </ul>
                     </nav>

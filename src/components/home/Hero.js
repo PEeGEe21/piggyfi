@@ -1,5 +1,6 @@
 import styles from './Hero.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -22,13 +23,17 @@ export default function Hero() {
 
                         <div className="mt-5 max-w-md  sm:flex sm:justify-start md:mt-8">
                             <div className="rounded-md shadow">
-                            <a href="" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:px-10">
+                                <Link href="">
+                            <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:px-10">
                                 Get early access
                             </a>
+                            </Link>
                             </div>
 
                             {/* <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                            <a href="" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-700 md:py-4 md:text-lg md:px-10">Join Us</a>
+                            <Link href="">
+                            <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-700 md:py-4 md:text-lg md:px-10">Join Us</a>
+                            </Link>
                             </div> */}
 
                         </div>

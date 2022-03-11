@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from './Footer.module.css'
+import Link from 'next/link';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,9 +20,9 @@ export default function Footer() {
             <div className="mx-auto">
               <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Products</h4>
               <ul>
-                <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>Send & Recieve</a></li>
-                <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>piggyfi for Business</a></li>
-                <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>Save & Earn</a></li>
+        <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Send & Recieve</a></Link></li>
+        <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>piggyfi for Business</a></Link></li>
+        <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Save & Earn</a></Link></li>
               </ul>
             </div>
 
@@ -30,18 +31,25 @@ export default function Footer() {
               <div>
               <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Company</h4>
                 <ul>
-                  <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>FaQs</a></li>
-                  <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>How it works</a></li>
-                  <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>lorem ipsum</a></li>
+                  <li className={styles.footer_nav_item}><Link href="/">
+                    <a className={styles.footer_nav_link}>FaQs</a>
+                    </Link>
+                  </li>
+                  <li className={styles.footer_nav_item}><Link href="">
+                    <a className={styles.footer_nav_link}>How it works</a>
+                    </Link></li>
+                  <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
                 </ul>
 
               </div>
               <div className="	">
               <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Legal</h4>
                 <ul>
-                <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>Terms of Service</a></li>
-                <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>Privacy Policy</a></li>
-                <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>Cookie Policy</a></li>
+                <li className={styles.footer_nav_item}><Link href="">
+                  <a className={styles.footer_nav_link}>Terms of Service</a></Link></li>
+                <li className={styles.footer_nav_item}>
+                  <Link href=""><a className={styles.footer_nav_link}>Privacy Policy</a></Link></li>
+                <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Cookie Policy</a></Link></li>
                   </ul>
                 </div>
             </div>
@@ -50,9 +58,9 @@ export default function Footer() {
             <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Contact Us</h4>
             <ul>
 
-                  <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>Piggyfi@gmail.com</a></li>
-                  <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>lorem ipsum</a></li>
-                  <li className={styles.footer_nav_item}><a href="" className={styles.footer_nav_link}>lorem ipsum</a></li>
+                  <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Piggyfi@gmail.com</a></Link></li>
+                  <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
+                  <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
               </ul>
             </div>
 
