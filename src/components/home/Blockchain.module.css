@@ -1,0 +1,36 @@
+.imgCard {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  height: 500px !important;
+  /* padding: 100%; */
+}
+
+.imgCard img{
+    padding-left: 50px;
+
+  /* padding: 100%; */
+}
+.imgCard .imgCardDiv {
+  height: 500px;
+
+}
+
+.subtitle {
+  color: #25252c;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.heading_title {
+  color: #25252c;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+/* .imgCard img{
+   height: 7000px;
+    padding: 100%;
+} */

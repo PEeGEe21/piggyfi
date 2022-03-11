@@ -1,0 +1,20 @@
+.heading_title {
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .imgCard {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    height: 400px !important;
+    /* padding: 100%; */
+  }
+  
+  .imgCard img {
+    padding-right: 50px;
+  
+    /* padding: 100%; */
+  }
+  

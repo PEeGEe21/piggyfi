@@ -1,0 +1,38 @@
+.page_section {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color: #ffffff;
+}
+
+.heading_title {
+  font-size: 35px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.imgCard {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  height: 400px !important;
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  /* padding: 100%; */
+}
+.imgCard img {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding: 100%; */
+}
+
+.imgCard img {
+  padding-right: 50px;
+
+  /* padding: 100%; */
+}

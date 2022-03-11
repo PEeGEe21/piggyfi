@@ -1,0 +1,44 @@
+.page_section {
+    padding: 100px 80px 100px 80px;
+    background-color: #ffffff;
+  }
+
+.imgCard {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    /* padding: 100%; */
+  }
+  
+  .imgCard img{
+      padding-left: 50px;
+      /* height: 500px; */
+
+  
+    /* padding: 100%; */
+  }
+
+  .imgCard .imgCardDiv {
+    height: 500px;
+  
+  }
+  
+  .subtitle {
+    color: #25252c;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .heading_title {
+    color: #25252c;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  
+  /* .imgCard img{
+     height: 7000px;
+      padding: 100%;
+  } */
+  
