@@ -10,7 +10,7 @@ export default function Hero() {
 
 
             <div className="container w-full">
-                <main className="px-[100px] ">
+                <main className="sm:px-8 px-[20px]   ">
                     <div className="pt-24 pb-24 mx-auto  flex flex-col md:flex-row sm:flex-col   px-4 ">
                     <div className="flex-1">
                         <div className="text-left">

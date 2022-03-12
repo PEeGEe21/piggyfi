@@ -9,15 +9,15 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-[#000042]  w-full px-[50px]">
+      <footer className="bg-[#000042]  w-full sm:px-[50px] px-[20]">
         <div className=" mx-auto container">
-          <div className="top-footer py-[120px] px-4 grid  grid-cols-4 gap-8	border-b-[0.5px]	border-[#FFFFFF80] ">
+          <div className="top-footer py-[120px] px-4 grid  grid-cols-1 md:grid-cols-4 sm:grid-cols-4  gap-8	border-b-[0.5px]	border-[#FFFFFF80] ">
             <div className="col-span-[3] w-full">
               <Image src="/images/Logo.svg" width={150} height={80} alt="ink" />
 
               <p className={styles.footer_desc}>A DeFi platform that helps you save in stable currencies</p>
             </div>
-            <div className="mx-auto">
+            <div className="sm:mx-auto mx-0">
               <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Products</h4>
               <ul>
         <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Send & Recieve</a></Link></li>
@@ -26,7 +26,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="flex justify-between">
+            <div className="flex justify-between flex-col sm:flex-row md:flex-col lg:flex-row">
 
               <div>
               <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Company</h4>
@@ -42,7 +42,7 @@ export default function Footer() {
                 </ul>
 
               </div>
-              <div className="	">
+              <div className=" mt-10 sm:mt-0 md:mt-4 lg:mt-0	">
               <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Legal</h4>
                 <ul>
                 <li className={styles.footer_nav_item}><Link href="">
@@ -54,7 +54,7 @@ export default function Footer() {
                 </div>
             </div>
             
-            <div className="mx-auto">
+            <div className="sm:mx-auto mx-0">
             <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Contact Us</h4>
             <ul>
 

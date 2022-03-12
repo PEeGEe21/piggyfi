@@ -10,7 +10,7 @@ const Convert = () => {
     <>
       <section className={styles.page_section}>
       <div className="container w-full ">
-                    <div className="pt-[15] pb-[15] mx-auto flex px-4 justify-center items-center ">
+                    <div className="pt-[15] pb-[15] mx-auto flex flex-col md:flex-row sm:flex-col px-4 justify-center items-center ">
       {/* <div className="container w-full"> */}
                 {/* <section className="px-[100px] "> */}
                     {/* <div className="pt-24 pb-24 mx-auto flex px-4 "> */}
@@ -27,7 +27,7 @@ const Convert = () => {
                       </div>
 
                       <div className="flex-1 ">
-                          <div className="text-left pl-[100px]">
+                          <div className={styles.text_grid}>
                             <h1 className={styles.heading_title}>
                             Convert at unbeatable rates using P2P exchange                       
                             </h1>

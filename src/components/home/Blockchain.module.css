@@ -1,3 +1,23 @@
+.page_section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 80px;
+  padding-left: 80px;
+  background: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .page_section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .text_grid{
+    text-align: left;
+    padding-left: 0px !important;
+  }
+}
+
 .imgCard {
   position: relative;
   width: 100%;

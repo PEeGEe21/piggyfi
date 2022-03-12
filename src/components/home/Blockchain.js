@@ -5,11 +5,11 @@ import Link from 'next/link';
 const Blockchain = () => {
   return (
     <>
-                <section className="p-[80px] bg-[#F1F0FB] ">
+                <section className={styles.page_section}>
       <div className="container w-full ">
-                    <div className="pt-[15] pb-[15] mx-auto flex flex-row px-4 justify-center items-center ">
+                    <div className="pt-[15] pb-[15] mx-auto flex flex-col md:flex-row sm:flex-col px-4 justify-center items-center ">
                       <div className="flex-1 ">
-                          <div className="text-left pr-[80px]">
+                          <div className="text-left pr-0  md:pr-20">
                             <span className={styles.subtitle}>Global Peer-to-peer api</span>
 
                             <h1 className={styles.heading_title}>

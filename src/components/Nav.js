@@ -7,7 +7,7 @@ export default function Nav({children}) {
   return (
     <>
     <div className="">
-                    <nav id="site-navigation" className=" inline">
+                    <nav id="site-navigation" className=" inline hidden sm:hidden md:hidden lg:block ">
                         <ul className="menu inline-flex ">
                             <li className={styles.nav_item}>
                                 <Link href="/">
