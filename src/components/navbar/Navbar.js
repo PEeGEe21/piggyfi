@@ -27,7 +27,7 @@ export default function Navbar() {
           </div>
 
 <div className="mobile_nav_wrapper hidden">
-          <div class="mobile_menu_container">
+          <div className="mobile_menu_container">
             <ul>
               <li>
                 <Link href="">
