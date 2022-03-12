@@ -7,6 +7,26 @@
     background-color: #ffffff;
 }
 
+.page_section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 80px;
+  padding-left: 80px;
+  background: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .page_section {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .text_grid{
+    text-align: left;
+    padding-left: 0px !important;
+  }
+}
+
 .heading_title {
   font-size: 35px;
   color: #000000;

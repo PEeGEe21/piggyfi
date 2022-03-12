@@ -8,16 +8,16 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 const Save = () => {
   return (
     <>
-      <section className="p-[80px] bg-[#ffffff] ">
+      <section className={styles.page_section}>
       <div className="container w-full ">
-                    <div className="pt-[15] pb-[15] mx-auto flex px-4 justify-center items-center ">
+                    <div className="pt-[15] pb-[15] mx-auto flex flex-col md:flex-row sm:flex-col px-4 justify-center items-center ">
       {/* <div className="container w-full"> */}
                 {/* <section className="px-[100px] "> */}
                     {/* <div className="pt-24 pb-24 mx-auto flex px-4 "> */}
                     
 
                       <div className="flex-1 ">
-                          <div className="text-left pr-[100px]">
+                          <div className="text-left sm:pr-[100px] pr-[0]">
                             <h1 className={styles.heading_title}>
                             Save and earn up to 10% Annual Interest
                             </h1>

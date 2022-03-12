@@ -10,11 +10,11 @@ const Send = () => {
   return (
     <>
       
-      <section className="p-[80px] bg-[#ffffff] ">
+      <section className={styles.page_section}>
       <div className="container w-full ">
-                    <div className="pt-[15] pb-[15] mx-auto flex px-4 justify-center items-center ">
+                    <div className="pt-[15] pb-[15] mx-auto flex flex-col md:flex-row sm:flex-col px-4 justify-center items-center ">
                       <div className="flex-1 ">
-                          <div className="text-left pr-[100px]">
+                          <div className="text-left sm:pr-[100px] pr-[0]">
                             <h1 className={styles.heading_title}>
                                 Send and Recieve money
                             </h1>
