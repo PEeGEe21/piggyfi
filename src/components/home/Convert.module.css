@@ -55,6 +55,6 @@
 }
 
 .learn_more:hover .fa-right-long{
-  margin-left: 200px;
+  margin-left: 200px !important;
 }
 
