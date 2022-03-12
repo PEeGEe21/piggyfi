@@ -6,9 +6,9 @@ const Blockchain = () => {
   return (
     <>
                 <section className={styles.page_section}>
-      <div className="container w-full ">
+                  <div className="container w-full ">
                     <div className="pt-[15] pb-[15] mx-auto flex flex-col md:flex-row sm:flex-col px-4 justify-center items-center ">
-                      <div className="flex-1 ">
+                      <div className=" ">
                           <div className="text-left pr-0  md:pr-20">
                             <span className={styles.subtitle}>Global Peer-to-peer api</span>
 
@@ -37,28 +37,25 @@ const Blockchain = () => {
 
                             </div>
 
-
-
-                        
-
-
                           </div>
                       </div>
 
                       <div className={styles.imgCard}>
 
 
-                        {/* <div className="relative"> */}
-                            <Image src="/images/portrait-of-happy-black-family.png" width="100px" height="100%" alt="Your Name" 
+                        <div className=" flex items-center justify-center">
+                            {/* <Image src="/images/portrait-of-happy-black-family.png" width="100px" height="100%" alt="Your Name" 
                             layout="fill"
                             objectFit="contain"
-                            />
+                            /> */}
+                            <img src="/images/portrait-of-happy-black-family.png" alt="xikwklw" />
+
                             
-                        {/* </div> */}
+                        </div>
                       </div>
 
                     </div>
-            </div>
+                  </div>
                 </section>
     </>
   )
