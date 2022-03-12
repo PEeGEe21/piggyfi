@@ -13,7 +13,7 @@ const GetApp = () => {
 
 
 {/* <div className="relative"> */}
-<Image src="/images/Phone11-pro-back.svg" width={200} height="100%" objectFit="contain" layout="fill" />
+<Image src="/images/Phone11-pro-back.svg" width={200} height="100%" alt="" objectFit="contain" layout="fill" />
     
 </div>
                       <div className="flex-1 ">
