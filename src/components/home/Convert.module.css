@@ -43,6 +43,18 @@
   }
 }
 
-.page_section .learn-more a {
-  color: #ffffff !important;
+.learn_more{
+  padding-top: 0.75rem; /* 12px */
+  padding-bottom: 0.75rem; /* 12px */
+  margin-top: 0.5rem; /* 8px */
+  margin-bottom: 0.5rem; /* 8px */
+  display: flex;
+  align-items: center;
+  width: auto;
+  position: relative;
 }
+
+.learn_more:hover .fa-right-long{
+  margin-left: 200px;
+}
+

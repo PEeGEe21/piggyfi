@@ -28,9 +28,9 @@ const Send = () => {
                             <a className="w-full items-center justify-start py-3 text-base font-medium text-indigo-600	my-4 md:py-4 ">Learn More</a>
                             </Link>
                             </div> */}
-                            <div className="my-2 py-3 flex items-center learn-more w-1/4">
+                            <div className="my-2 py-3 flex items-center learn-more w-auto">
                               <Link href="">
-                                <a className="w-full inline-block items-center justify-start py-3 text-base font-medium text-indigo-600	 md:py-4 ">Learn More 
+                                <a className=" inline-block items-center justify-start py-3 text-base font-medium text-indigo-600	 md:py-4 ">Learn More 
                                 <FontAwesomeIcon style={{fontSize:"12px", marginLeft:'15px'}} icon={faLongArrowAltRight}></FontAwesomeIcon>
 
                               </a>
