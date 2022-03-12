@@ -7,6 +7,9 @@
   }
 
 
+
+
+
   
   @media only screen and (max-width: 767px) {
     .page_section {
@@ -23,20 +26,30 @@
 .imgCard {
     position: relative;
     width: 100%;
-    flex: 1;
     /* padding: 100%; */
   }
   
-  .imgCard img{
+.imgCard .ellipse{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+  
+  .imgCard .mainImage{
       padding-left: 50px;
-      /* height: 500px; */
+      height: 200px;
 
   
     /* padding: 100%; */
   }
 
-  .imgCard .imgCardDiv {
-    height: 500px;
+  .imgCard {
+    height: 400px;
+  
+  }
+  .imgCard img{
+
+    height: 100%;
   
   }
   

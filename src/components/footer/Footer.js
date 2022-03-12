@@ -9,8 +9,8 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-[#000042]  w-full sm:px-[50px] px-[20]">
-        <div className=" mx-auto container">
+      <footer className="bg-[#000042]  w-full sm:px-[50px] md:px-[20px] px-[20px]">
+        <div className=" mx-auto container w-full">
           <div className="top-footer py-[120px] px-4 grid  grid-cols-1 md:grid-cols-4 sm:grid-cols-4  gap-8	border-b-[0.5px]	border-[#FFFFFF80] ">
             <div className="col-span-[3] w-full">
               <Image src="/images/Logo.svg" width={150} height={80} alt="ink" />

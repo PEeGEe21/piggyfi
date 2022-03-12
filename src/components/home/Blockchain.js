@@ -48,7 +48,9 @@ const Blockchain = () => {
                             layout="fill"
                             objectFit="contain"
                             /> */}
-                            <img src="/images/portrait-of-happy-black-family.png" alt="xikwklw" />
+                            {/* <img src="/images/iPhone 12 Pro Max.svg" alt="xikwklw" />
+                            <img src="/images/iPhone 12 Pro Max 1.svg" alt="xikwklw" /> */}
+                            <img src="/images/Image (4).svg" alt="xikwklw" />
 
                             
                         </div>

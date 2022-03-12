@@ -12,11 +12,15 @@ const GetApp = () => {
                     <div className={styles.imgCard}>
 
 
-{/* <div className="relative"> */}
-<Image src="/images/Phone11-pro-back.svg" width={200} height="100%" alt="" objectFit="contain" layout="fill" />
+<div className="relative">
+
+
+                      
+                      <img src="/images/Image (3).svg" alt="" className="mainImage"/>
+                      </div>
     
 </div>
-                      <div className="flex-1 ">
+                      <div className="">
                         
                           <div className="text-left sm:pr-20 pr-[0]">
 

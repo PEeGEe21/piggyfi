@@ -10,7 +10,7 @@ const Convert = () => {
     <>
       <section className={styles.page_section}>
       <div className="container w-full ">
-                    <div className="pt-[15] pb-[15] mx-auto flex flex-col-reverse md:flex-row sm:flex-col sm:px-4 px-2 justify-center items-center ">
+                    <div className="pt-[15] pb-[15] mx-auto flex flex-col-reverse md:flex-row sm:flex-col sm:px-4 md:px-0 px-2 justify-center items-center ">
       {/* <div className="container w-full"> */}
                 {/* <section className="px-[100px] "> */}
                     {/* <div className="pt-24 pb-24 mx-auto flex px-4 "> */}
@@ -18,7 +18,7 @@ const Convert = () => {
                       <div className=" flex items-center justify-start">
 
 
-<img src="/images/portrait-of-happy-black-family.png" alt="nience" />
+                            <img src="/images/Image.svg" alt="nience" />
                         {/* <div className="relative"> */}
                             {/* <Image src="/images/portrait-of-happy-black-family.png" width="500px" height="100%" alt="Your Name" 
                             objectFit="contain"
@@ -33,7 +33,7 @@ const Convert = () => {
                             <h1 className={styles.heading_title}>
                             Convert at unbeatable rates using P2P exchange                       
                             </h1>
-                              <p className="mt-3 mx-auto text-base text-[#000000] sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                              <p className="mt-3 mx-auto text-base text-[#000000] sm:text-lg md:mt-5 md:text-md md:max-w-3xl">
                               PiggyFi allows you to send money to your friends and family within and outside these counties.
                               </p>
 
