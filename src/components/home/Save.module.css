@@ -54,3 +54,13 @@
 
   /* padding: 100%; */
 }
+
+.learn_more{
+  padding-bottom: 0.75rem; /* 12px */
+  margin-top: 0.5rem; /* 8px */
+  margin-bottom: 0.5rem; /* 8px */
+  display: flex;
+  align-items: center;
+  width: auto;
+  position: relative;
+}

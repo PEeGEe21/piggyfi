@@ -1,6 +1,7 @@
 import styles from './Hero.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import Typewriter from 'typewriter-effect'
 
 export default function Hero() {
   return (
@@ -15,7 +16,13 @@ export default function Hero() {
                     <div className="flex-1">
                         <div className="text-left">
                         <h1 className={styles.heading_title}>
-                            A smart way to save money across Africa
+                            A smart way to <span className={styles.effect}>
+                                <Typewriter options={{
+                                    strings: ['save', 'send', 'invest', 'exchange' ],
+                                    autoStart: true,
+                                    loop: true,
+                                }} 
+                                /></span> money across Africa
                         </h1>
                         <p className="mt-3 mr-10 max:width-auto mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                             PiggyFi makes use of the Blockchain to allow for easy and automated peer-to-peer money transfers within and  outside of Africa, as well as saving in US Dollars to protect against inflation and depreciation.

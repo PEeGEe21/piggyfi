@@ -4,6 +4,16 @@
     margin-bottom: 10px;
     color: #ffffff;
   }
+
+
+.heading_title .effect{
+    color: #D3D1F4;
+  }
+.heading_title .effect > div{
+    display: inline;
+  }
+
+
   
   .hero {
     background: #000e40;
@@ -55,11 +65,19 @@
     }
   }
 
+  @media only screen and (max-width: 568px) {
+    .heading_title{
+      font-size: 35px;
+    }
+  }
+
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  /* @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
+  /* Responsive layout - makes a two.heading_title{
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
       max-width: 50%;
     }
   }
