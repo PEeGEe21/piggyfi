@@ -56,19 +56,19 @@ export default function Hero() {
                                     <img src="/images/gallery/pic3.png"/>
                                     <img src="/images/gallery/pic4.png"/>
                                 </div>
-                                <div class={styles.column}>
+                                <div className={styles.column}>
                                     <img src="/images/gallery/pic5.png"/>
                                     <img src="/images/gallery/pic6.png"/>
                                     <img src="/images/gallery/pic7.png"/>
                                     <img src="/images/gallery/pic8.png"/>
                                 </div>
-                                <div class={styles.column}>
+                                <div className={styles.column}>
                                     <img src="/images/gallery/pic9.png"/>
                                     <img src="/images/gallery/pic10.png"/>
                                     <img src="/images/gallery/pic11.png"/>
                                     <img src="/images/gallery/pic12.png"/>
                                 </div>
-                                <div class={styles.column}>
+                                <div className={styles.column}>
                                     <img src="/images/gallery/pic13.png"/>
                                     <img src="/images/gallery/pic14.png"/>
                                     <img src="/images/gallery/pic15.png"/>
@@ -78,18 +78,18 @@ export default function Hero() {
 
 
 
-                            {/* <div class="grid grid-cols-4 grid-flow-col gap-4">
-                            <div class="row-span-3 relative"><Image src="/images/portrait-of-happy-black-family.png" objectFit="contain" layout="fill" width={50} height={50}/></div>
+                            {/* <div className="grid grid-cols-4 grid-flow-col gap-4">
+                            <div className="row-span-3 relative"><Image src="/images/portrait-of-happy-black-family.png" objectFit="contain" layout="fill" width={50} height={50}/></div>
                                 <div>09</div>
                                 <div className="relative"><img src="/images/portrait-of-happy-black-family.png" width={50} height={50}/></div>
                                 <div>09</div>
                             </div> */}
                         </div>
 
-                        {/* <div class="grid grid-rows-3 grid-flow-col gap-4">
-                        <div class="row-span-3 ...">01</div>
-                        <div class="col-span-2 ...">02</div>
-                        <div class="row-span-2 col-span-2 ...">03</div>
+                        {/* <div className="grid grid-rows-3 grid-flow-col gap-4">
+                        <div className="row-span-3 ...">01</div>
+                        <div className="col-span-2 ...">02</div>
+                        <div className="row-span-2 col-span-2 ...">03</div>
                         </div> */}
                         
                     {/* <div className="grid grid-rows-5 grid-flow-col gap-4 text-white">
