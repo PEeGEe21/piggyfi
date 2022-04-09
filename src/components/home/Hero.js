@@ -21,10 +21,15 @@ export default function Hero() {
                                     strings: ['save', 'send', 'invest', 'exchange' ],
                                     autoStart: true,
                                     loop: true,
+                                    delay: 150,
+                                    pauseFor: 2000,
+                                    
                                 }} 
+
+                            
                                 /></span> money across Africa
                         </h1>
-                        <p className="mt-3 mr-10 max:width-auto mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                        <p className="mt-3 mr-0 sm:mr-10 max:width-auto mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                             PiggyFi makes use of the Blockchain to allow for easy and automated peer-to-peer money transfers within and  outside of Africa, as well as saving in US Dollars to protect against inflation and depreciation.
                         </p>
 

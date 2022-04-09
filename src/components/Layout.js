@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import React from 'react'
 import Footer from './footer/Footer'
 import Navbar from './navbar/Navbar'
+import styles from './Layout.module.css'
+
 
 const Layout = ({children}) => {
   return (
@@ -11,7 +12,7 @@ const Layout = ({children}) => {
         <meta name="description" content="Save and send money" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+        
             <Navbar/>
                 {children}
             <Footer/>

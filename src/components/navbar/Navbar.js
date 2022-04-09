@@ -1,15 +1,37 @@
 import Logo from "../Logo";
 import Nav from "../Nav";
+import { useEffect, useRef, useState } from "react";
 import styles from '../Layout.module.css'
+import cn from 'classnames'
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
-import { faBars } from "@fortawesome/free-solid-svg-icons"; 
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons"; 
 import Link from "next/link";
 
 
 
 export default function Navbar() {
+
+  const [show, setShow ] = useState(null);
+  let ref = useRef();
+
+  useEffect(()=>{
+    const handler = (e) => {
+      if (show && ref.current && !ref.current.contains(e.target)){
+        setShow(false);
+
+      }
+    };
+
+    document.addEventListener("mousedown", handler);
+    document.addEventListener("touchstart", handler);
+    return() => {
+      document.removeEventListener("mousedown", handler);
+      document.removeEventListener("touchstart", handler);
+    };
+  }, [show]);
+
   return (
     <header className={styles.navbar}>
       <div className="container-fluid mx-auto">
@@ -19,11 +41,47 @@ export default function Navbar() {
 
           <Nav/>
 
-          <div className="sm:block md:block lg:hidden block flex items-center justify-center mr-2">
-          <button type="button" className="flex items-center justify-center p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+          <div className="menu-btn block sm:block md:block lg:hidden  flex items-center justify-center mr-2">
+          <button type="button" className=" flex items-center justify-center p-2 focus:outline-none " aria-controls="mobile-menu" aria-expanded="false" onClick={() => {
+            setShow(!show); 
+            }} ref={ref}>
 
+              {show? <FontAwesomeIcon style={{fontSize:"25px", color:'#ffffff', textAlign: 'center', display: 'flex', alignItems:'center', justifyContent: 'center', fontWeight:'300'}} icon={faTimes}></FontAwesomeIcon>
+            :
             <FontAwesomeIcon style={{fontSize:"25px", color:'#ffffff', textAlign: 'center', display: 'flex', alignItems:'center', justifyContent: 'center', fontWeight:'300'}} icon={faBars}></FontAwesomeIcon>
+            }
+
+            
+
+
             </button>
+          </div>
+
+
+          <div className={cn("wrapper", {show})}>
+            <FontAwesomeIcon className="close-btn" style={{fontSize:"25px", color:'#ffffff', textAlign: 'center', display: 'flex', alignItems:'center', justifyContent: 'center', fontWeight:'300'}} icon={faTimes} onClick={() => {
+                    setShow(false)
+                }}></FontAwesomeIcon>
+            <div>
+                <ul>
+                  <li>
+                  <Link href="/">
+                      <a>Products</a>
+                  </Link>
+                  </li>
+                  <li>
+                  <Link href="/">
+                      <a>FAQs</a>
+                  </Link>
+                  </li>
+                  <li>
+                  <Link href="/">
+                      <a>Support</a>
+                  </Link>
+                  </li>
+                </ul>
+            </div>
+
           </div>
 
 <div className="mobile_nav_wrapper hidden">
