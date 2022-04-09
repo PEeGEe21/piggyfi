@@ -15,7 +15,7 @@ const Blockchain = () => {
                             <h1 className={styles.heading_title}>
                             Power your Blockchain app with our payment Infrastructure
                             </h1>
-                            <p className="mt-3 max-w-md mx-auto text-base text-[#000000] sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                            <p className="mt-3 mx-auto text-base text-[#000000] sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                             PiggyFi for business allows you receive money from anywhere with our unique peer-to-peer technology
                             </p>
 

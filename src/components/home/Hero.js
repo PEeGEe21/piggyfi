@@ -17,7 +17,7 @@ export default function Hero() {
                         <h1 className={styles.heading_title}>
                             A smart way to save money across Africa
                         </h1>
-                        <p className="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                        <p className="mt-3 mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                             PiggyFi makes use of the Blockchain to allow for easy and automated peer-to-peer money transfers within and  outside of Africa, as well as saving in US Dollars to protect against inflation and depreciation.
                         </p>
 

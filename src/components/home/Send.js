@@ -18,7 +18,7 @@ const Send = () => {
                             <h1 className={styles.heading_title}>
                                 Send and Recieve money
                             </h1>
-                            <p className="mt-3 max-w-md mx-auto text-base text-[#000000] sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                            <p className="mt-3 max-w-md text-base text-[#000000] sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                             With PiggyFi, you can send money easily to friends, family and business partners in Africa and abroad. The best part? Transaction charges are ridiculously low.
                             </p>
 
@@ -64,11 +64,12 @@ const Send = () => {
 
 
                         {/* <div className="relative"> */}
-                            <Image src="/images/portrait-of-happy-black-family.png" width="100px" height="100%" alt="Your Name" 
+                            <Image src="/images/send_img.png" width="100px" height="100%" alt="Your Name" 
                             layout="fill"
                             objectFit="contain"
                             />
                             
+                            {/* <img src="/images/send_img.png" alt=""/> */}
                         {/* </div> */}
                       </div>
 
