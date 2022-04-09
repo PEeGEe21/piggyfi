@@ -44,8 +44,8 @@ export default function Hero() {
 
                     <div className="flex-1  w-full text-center">
                         <div className={styles.gallery}>
-                            <div class={styles.row}>
-                                <div class={styles.column}>
+                            <div className={styles.row}>
+                                <div className={styles.column}>
                                     
                                     {/* <Image src="/images/gallery/pic1.png" objectFit="contsin" width="100%" height="100%" />
                                     <Image src="/images/gallery/pic2.png" objectFit="cover" layout="fill" />
