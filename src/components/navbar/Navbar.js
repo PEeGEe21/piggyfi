@@ -16,21 +16,21 @@ export default function Navbar() {
   const [show, setShow ] = useState(null);
   let ref = useRef();
 
-  useEffect(()=>{
-    const handler = (e) => {
-      if (show && ref.current && !ref.current.contains(e.target)){
-        setShow(false);
+  // useEffect(()=>{
+  //   const handler = (e) => {
+  //     if (show && ref.current && !ref.current.contains(e.target)){
+  //       setShow(false);
 
-      }
-    };
+  //     }
+  //   };
 
-    document.addEventListener("mousedown", handler);
-    document.addEventListener("touchstart", handler);
-    return() => {
-      document.removeEventListener("mousedown", handler);
-      document.removeEventListener("touchstart", handler);
-    };
-  }, [show]);
+  //   document.addEventListener("mousedown", handler);
+  //   document.addEventListener("touchstart", handler);
+  //   return() => {
+  //     document.removeEventListener("mousedown", handler);
+  //     document.removeEventListener("touchstart", handler);
+  //   };
+  // }, [show]);
 
   return (
     <header className={styles.navbar}>
@@ -75,7 +75,7 @@ export default function Navbar() {
                   </Link>
                   </li>
                   <li>
-                  <Link href="/">
+                  <Link href="/support">
                       <a>Support</a>
                   </Link>
                   </li>
