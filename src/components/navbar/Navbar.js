@@ -21,6 +21,19 @@ export default function Navbar() {
 
   }
 
+  useEffect(() =>{
+    window.addEventListener('scroll', isSticky);
+    return () =>{
+      window.removeEventListener('scroll', isSticky);
+    }
+  });
+
+  const isSticky = (e) => {
+    const header = document.querySelector('.header');
+    const scrollTop = window.scrollY;
+    scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky'); 
+  }
+
   // useEffect(()=>{
   //   const handler = (e) => {
   //     if (show && ref.current && !ref.current.contains(e.target)){
@@ -38,7 +51,7 @@ export default function Navbar() {
   // }, [show]);
 
   return (
-    <header className={styles.navbar}>
+    <header className={cn("header", [styles.navbar])}>
       <div className="container-fluid mx-auto">
         <div className="flex items-center justify-between">
 

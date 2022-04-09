@@ -20,6 +20,7 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .menu-btn{
@@ -112,5 +113,55 @@ a {
   line-height: 50px;
   transition: all 0.3s ease;
   
+}
+
+
+@-webkit-keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+.header{
+    transition: all 500ms ease-in-out;
+
+}
+
+.is-sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 /15%);
+  background: rgba(0, 0 , 0 , 1);
+  transition: all 500ms ease-in-out;
+  /* animation: 500ms ease-in-out 0s normal none 1 running slideInDown; */
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
