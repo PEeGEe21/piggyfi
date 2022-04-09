@@ -15,6 +15,11 @@ export default function Navbar() {
 
   const [show, setShow ] = useState(null);
   let ref = useRef();
+  // window.location.reload();
+  const removeMenu = () => {
+    setShow(false);
+
+  }
 
   // useEffect(()=>{
   //   const handler = (e) => {
@@ -66,17 +71,17 @@ export default function Navbar() {
                 <ul>
                   <li>
                   <Link href="/">
-                      <a>Products</a>
+                      <a onClick={removeMenu}>Products</a>
                   </Link>
                   </li>
                   <li>
                   <Link href="/">
-                      <a>FAQs</a>
+                      <a onClick={removeMenu}>FAQs</a>
                   </Link>
                   </li>
                   <li>
                   <Link href="/support">
-                      <a>Support</a>
+                      <a onClick={removeMenu}>Support</a>
                   </Link>
                   </li>
                 </ul>
