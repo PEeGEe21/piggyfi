@@ -53,7 +53,7 @@ export default function Navbar() {
   return (
     <header className={cn("header", [styles.navbar])}>
       <div className="container-fluid mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="header-bar flex items-center justify-between">
 
         <Logo/>
 
