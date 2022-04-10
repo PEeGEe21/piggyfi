@@ -51,6 +51,12 @@ a {
   .close-btn{
     display: none !important;
   }
+
+  /* .test.grid{
+    direction: rtl;
+    grid-auto-flow: dense;
+
+  } */
 }
 @media (max-width: 568px) {
   .close-btn{
@@ -163,5 +169,109 @@ a {
   /* animation: 500ms ease-in-out 0s normal none 1 running slideInDown; */
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media (min-width: 576px){
+  .container {
+      max-width: 540px;
+  }
+}
+
+@media (min-width: 768px){
+  .container {
+      max-width: 720px;
+  }
+}
+
+
+@media (min-width: 992px){
+  .container {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1200px;
+  }
+}
+
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imgCard {
+  position: relative;
+  /* width: 400px; */
+  /* max-width: 400px; */
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  /* padding: 100%; */
+}
+
+.imgCard img {
+  /* padding-right: 50px; */
+  height: auto;
+  max-width: 500px;
+  width: auto;
+  object-fit: cover;
+  /* min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%; */
+
+  /* padding: 100%; */
+}
+
+
+.right-card{
+  -webkit-box-flex: 0;
+  flex: 0 0 50%;
+  max-width: 50%;
+
+}
+
+.left-card{
+  -webkit-box-flex: 0;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .right-card{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+  }
+  .left-card{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  
+  }
+}
+@media only screen and (max-width: 767px) {
+  .right-card{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  
+  }
+  .left-card{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  
+  }
 }
 

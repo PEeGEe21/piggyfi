@@ -10,7 +10,7 @@ export default function Hero() {
         <div className={styles.hero}>
 
 
-            <div className="container w-full">
+            <div className="container-fluid w-full">
                 <main className="sm:px-8 px-[10px]   ">
                     <div className="pt-5 pb-24 mx-auto  flex flex-col md:flex-row sm:flex-col justify-center items-center px-4 ">
                     <div className="flex-1">
