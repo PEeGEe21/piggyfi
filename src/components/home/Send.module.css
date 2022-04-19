@@ -146,15 +146,15 @@
 
 }
 
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 767px){
   .frame4_imageFloat figure img{
-    height: 520px;
-    width: 300px;
+    height: 520px !important;
+    width: 300px !important;
   }
 
   .frame1_imageFloat {
     left: 0;
-    z-index: 3;
+    /* z-index: 3; */
   
   }
   
