@@ -145,6 +145,20 @@
 
 @media only screen and (max-width: 767px){
   .frame4_imageFloat figure img{
+    height: 300px !important;
+    width: 100px !important;
+  }
+
+  .frame1_imageFloat {
+    left: 0;
+    /* z-index: 3; */
+  
+  }
+  
+}
+
+@media only screen and (max-width: 767px){
+  .frame4_imageFloat figure img{
     height: 520px !important;
     width: 300px !important;
   }
