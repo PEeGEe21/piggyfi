@@ -93,7 +93,7 @@ export default function Navbar() {
                   </Link>
                   </li>
                   <li>
-                  <Link href="/support">
+                  <Link href="/">
                       <a onClick={removeMenu}>Support</a>
                   </Link>
                   </li>
@@ -106,17 +106,17 @@ export default function Navbar() {
           <div className="mobile_menu_container">
             <ul>
               <li>
-                <Link href="">
+                <Link href="/">
                 <a>Home</a>
                 </Link>
               </li>
               <li>
-                <Link href="">
+                <Link href="/">
                 <a>Home</a>
                 </Link>
               </li>
               <li>
-                <Link href="">
+                <Link href="/">
                 <a>Home</a>
                 </Link>
               </li>

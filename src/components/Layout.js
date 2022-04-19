@@ -2,9 +2,17 @@ import Head from 'next/head'
 import Footer from './footer/Footer'
 import Navbar from './navbar/Navbar'
 import styles from './Layout.module.css'
+import React, { useState, useEffect, useCallback, useRef } from "react";
+import dynamic from "next/dynamic";
+
+// import { deviceType, eventEmitter } from "../../utils/index";
+
 
 
 const Layout = ({children}) => {
+
+
+
   return (
         <>
         <Head>

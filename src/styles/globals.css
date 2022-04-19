@@ -94,10 +94,13 @@ a {
   list-style: none;
   text-align: center;
   opacity: 0;
+  pointer-events: none;
 }
 
 .wrapper.show ul {
   opacity: 1;
+  pointer-events: visible;
+
 }
 
 .wrapper ul li {
@@ -145,7 +148,9 @@ a {
   animation-name: slideInDown;
 }
 .header {
-  transition: all 500ms ease-in-out;
+  transition: all 500ms ease;
+  /* animation: 500ms ease-in-out 0s normal none 1 running slideInDown; */
+
 }
 
 .header.is-sticky .header-bar {
@@ -161,7 +166,7 @@ a {
   box-shadow: 0 2px 24px 0 rgb(0 0 0 /15%);
   background: rgba(0, 0, 0, 1);
   transition: all 500ms ease-in-out;
-  /* animation: 500ms ease-in-out 0s normal none 1 running slideInDown; */
+  animation: 500ms ease-in-out 0s normal none 1 running slideInDown;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -197,7 +202,7 @@ a {
   margin-left: auto;
 }
 
-.imgCard {
+.outerCard {
   position: relative;
   /* width: 400px; */
   /* max-width: 400px; */
@@ -205,19 +210,47 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: auto;
+  height: 100%;
+  /* padding: 100%; */
+}
+.imgCard {
+  position: relative;
+  /* width: 400px; */
+  /* max-width: 400px; */
+  /* flex: 1; */
+  height: 100%;
   /* padding: 100%; */
 }
 
 .imgCard img {
   /* padding-right: 50px; */
-  height: auto;
+  height: 100%;
   max-width: 500px;
   width: auto;
   object-fit: cover;
+  border-radius: 2px;
 
   /* padding: 100%; */
 }
+
+figure.main-img{
+  z-index: 3;
+  height: 100%;
+  position: relative;
+}
+
+/* figure img{
+  border: none;
+  margin: auto;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+
+} */
 
 .right-card .imgCard {
   justify-content: flex-end;
@@ -228,24 +261,7 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
-  .right-card .imgCard {
-    justify-content: center;
-
-  }
-
-  .imgCard img {
-    /* padding-right: 50px; */
-    height: auto;
-    max-width: 500px;
-    width: 100%;
-    object-fit: cover;
   
-    /* padding: 100%; */
-  }
-  
-  .left-card .imgCard {
-    justify-content: center;
-  }
 }
 
 
@@ -254,6 +270,9 @@ a {
   -webkit-box-flex: 0;
   flex: 0 0 50%;
   max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .left-card {
@@ -280,10 +299,34 @@ a {
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
+    justify-content: center;
   }
   .left-card {
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .right-card .imgCard {
+    justify-content: center;
+
+  }
+  .right-card {
+    padding-top: 100px;
+
+  }
+
+  .imgCard img {
+    /* padding-right: 50px; */
+    height: auto;
+    max-width: 500px;
+    width: 100%;
+    object-fit: cover;
+  
+    /* padding: 100%; */
+  }
+  
+  .left-card .imgCard {
+    justify-content: center;
   }
 }

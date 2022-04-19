@@ -28,7 +28,7 @@ const Send = () => {
                             </p>
 
                             <div className="my-2 py-3 flex items-center learn-more w-auto">
-                                <Link href="">
+                                <Link href="/">
                                     <a className=" inline-block items-center justify-start py-3 text-base font-medium text-indigo-600	 md:py-4 ">Learn More 
                                       <FontAwesomeIcon style={{fontSize:"12px", marginLeft:'15px'}} icon={faLongArrowAltRight}></FontAwesomeIcon>
 
@@ -59,7 +59,7 @@ const Send = () => {
                           </div>
                       </div>
                       
-                      <div className="right-card">
+                      {/* <div className="right-card">
                             <div className="imgCard">
                               <figure>
                                 <img src="/images/send_img.png" width="100px" height="100%" alt="Your Name" className="img-fluid"
@@ -68,6 +68,64 @@ const Send = () => {
                                 </figure>
                                 
                               </div>
+                      </div> */}
+
+                      <div className="right-card">
+
+                        <div className="outerCard">
+                          <div className="imgCard">
+                            {/* <div className="main-img-div"> */}
+                              <figure className="main-img">
+                                <img src="/images/portrait-of-happy-black-family.png" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                                />
+
+                              </figure>
+
+                              {/* </div>   */}
+
+                            
+
+                              <div className={styles.frame5_imageFloat}>
+                                <figure className={styles.group}>
+                                <img src="/images/Group 8.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                                />
+                                </figure>
+                                </div>
+
+                                <div className={styles.frame4_imageFloat}>
+                                <figure className={styles.rectangle}>
+                                <img src="/images/Rectangle 77.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                                />
+                                </figure>
+                                </div>
+                              
+                              <div className={styles.frame3_imageFloat}>
+                                <figure className={styles.coin}>
+                                <img src="/images/coin.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                                />
+                                </figure>
+                                </div>
+                              
+
+                              <div className={styles.frame1_imageFloat} data-animation="heroFloater">
+                                  <figure className={styles.frame1}>
+                                    <img src="/images/Frame7.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                                  />
+
+                                  </figure>
+                              </div>
+
+                              <div className={styles.frame2_imageFloat}>
+
+                                <figure className={styles.frame2}>
+                                  <img src="/images/Frame18.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                                  />
+
+                                  </figure>
+                              </div>
+                              
+                            </div>
+                        </div>
                       </div>
                         
                     </div>
@@ -87,12 +145,12 @@ const Send = () => {
 
 
                             {/* <div className="my-5 py-3">
-                            <Link href="">
+                            <Link href="/">
                             <a className="w-full items-center justify-start py-3 text-base font-medium text-indigo-600	my-4 md:py-4 ">Learn More</a>
                             </Link>
                             </div> *
                             <div className="my-2 py-3 flex items-center learn-more w-auto">
-                              <Link href="">
+                              <Link href="/">
                                 <a className=" inline-block items-center justify-start py-3 text-base font-medium text-indigo-600	 md:py-4 ">Learn More 
                                 <FontAwesomeIcon style={{fontSize:"12px", marginLeft:'15px'}} icon={faLongArrowAltRight}></FontAwesomeIcon>
 

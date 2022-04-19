@@ -37,7 +37,7 @@ const Convert = () => {
 
 
                       <div className={styles.learn_more}>
-                        <Link href="">
+                        <Link href="/">
                           <a className=" inline-block items-center justify-start py-3 text-base font-medium text-indigo-600	 md:py-4 ">Learn More 
                             <FontAwesomeIcon style={{fontSize:"12px", marginLeft:'15px'}} icon={faLongArrowAltRight}></FontAwesomeIcon>
 

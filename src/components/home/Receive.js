@@ -38,12 +38,12 @@ const Receive = () => {
 
 
                               {/* <div className="my-5 py-3">
-                              <Link href="">
+                              <Link href="/">
                               <a className="items-center justify-start py-3 text-base font-medium text-indigo-600 md:py-4 ">Learn More</a>
                               </Link>
                             </div> */}
                             <div className="my-2 py-3 flex items-center learn-more w-auto ">
-                              <Link href="">
+                              <Link href="/">
                                 <a className="inline-block items-center justify-start py-3 text-base font-medium text-indigo-600	 md:py-4 ">Learn More 
                                 <FontAwesomeIcon style={{fontSize:"12px", marginLeft:'15px'}} icon={faLongArrowAltRight}></FontAwesomeIcon>
 

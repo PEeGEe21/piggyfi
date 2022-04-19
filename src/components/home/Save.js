@@ -25,12 +25,12 @@ const Save = () => {
 
 
                               {/* <div className="my-5 py-3">
-                              <Link href="">
+                              <Link href="/">
                               <a className="w-full items-center justify-start py-3 text-base font-medium text-indigo-600	 md:py-4 ">Start saving</a>
                               </Link>
                             </div> */}
                             <div className={styles.learn_more}>
-                              <Link href="">
+                              <Link href="/">
                                 <a className=" inline-block items-center justify-start py-3 text-base font-medium text-indigo-600	 md:py-4 ">Learn More 
                                   <FontAwesomeIcon style={{fontSize:"12px", marginLeft:'15px'}} icon={faLongArrowAltRight}></FontAwesomeIcon>
 
@@ -43,13 +43,60 @@ const Save = () => {
       </div>
       
       <div className="right-card">
+
+            <div className="outerCard">
             <div className="imgCard">
-              <figure>
-                <img src="/images/calculator-and-alarm-clock.png" width="100px" height="100%" alt="Your Name" className="img-fluid"
-                />
+              {/* <div className="main-img-div"> */}
+                <figure className="main-img">
+                  <img src="/images/calculator-and-alarm-clock.png" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                  />
 
                 </figure>
+
+                {/* </div>   */}
+
+              
+
+                <div className={styles.frame5_imageFloat}>
+                  <figure className={styles.group}>
+                  <img src="/images/Group 8.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                  />
+                  </figure>
+                  </div>
+
+                  <div className={styles.frame4_imageFloat}>
+                  <figure className={styles.rectangle}>
+                  <img src="/images/Rectangle 77.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                  />
+                  </figure>
+                  </div>
                 
+                <div className={styles.frame3_imageFloat}>
+                  <figure className={styles.coin}>
+                  <img src="/images/coin.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                  />
+                  </figure>
+                  </div>
+                
+
+                <div className={styles.frame1_imageFloat} data-animation="heroFloater">
+                    <figure className={styles.frame1}>
+                      <img src="/images/Frame7.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                    />
+
+                    </figure>
+                </div>
+
+                <div className={styles.frame2_imageFloat}>
+
+                  <figure className={styles.frame2}>
+                    <img src="/images/Frame18.svg" width="100px" height="100%" alt="Your Name" className="img-fluid"
+                    />
+
+                    </figure>
+                </div>
+                
+              </div>
               </div>
       </div>
         

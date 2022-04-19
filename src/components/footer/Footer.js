@@ -20,9 +20,9 @@ export default function Footer() {
             <div className="sm:mx-auto mx-0">
               <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Products</h4>
               <ul>
-        <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Send & Recieve</a></Link></li>
-        <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>piggyfi for Business</a></Link></li>
-        <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Save & Earn</a></Link></li>
+        <li className={styles.footer_nav_item}><Link href="/"><a className={styles.footer_nav_link}>Send & Recieve</a></Link></li>
+        <li className={styles.footer_nav_item}><Link href="/"><a className={styles.footer_nav_link}>piggyfi for Business</a></Link></li>
+        <li className={styles.footer_nav_item}><Link href="/"><a className={styles.footer_nav_link}>Save & Earn</a></Link></li>
               </ul>
             </div>
 
@@ -35,21 +35,21 @@ export default function Footer() {
                     <a className={styles.footer_nav_link}>FaQs</a>
                     </Link>
                   </li>
-                  <li className={styles.footer_nav_item}><Link href="">
+                  <li className={styles.footer_nav_item}><Link href="/">
                     <a className={styles.footer_nav_link}>How it works</a>
                     </Link></li>
-                  <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
+                  <li className={styles.footer_nav_item}><Link href="/"><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
                 </ul>
 
               </div>
               <div className=" mt-10 sm:mt-0 md:mt-4 lg:mt-0	">
               <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Legal</h4>
                 <ul>
-                <li className={styles.footer_nav_item}><Link href="">
+                <li className={styles.footer_nav_item}><Link href="/">
                   <a className={styles.footer_nav_link}>Terms of Service</a></Link></li>
                 <li className={styles.footer_nav_item}>
-                  <Link href=""><a className={styles.footer_nav_link}>Privacy Policy</a></Link></li>
-                <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Cookie Policy</a></Link></li>
+                  <Link href="/"><a className={styles.footer_nav_link}>Privacy Policy</a></Link></li>
+                <li className={styles.footer_nav_item}><Link href="/"><a className={styles.footer_nav_link}>Cookie Policy</a></Link></li>
                   </ul>
                 </div>
             </div>
@@ -58,9 +58,9 @@ export default function Footer() {
             <h4 className="footer_menu_heading mb-5 text-[20px] text-zinc-300	" >Contact Us</h4>
             <ul>
 
-                  <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>Piggyfi@gmail.com</a></Link></li>
-                  <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
-                  <li className={styles.footer_nav_item}><Link href=""><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
+                  <li className={styles.footer_nav_item}><Link href="/"><a className={styles.footer_nav_link}>Piggyfi@gmail.com</a></Link></li>
+                  <li className={styles.footer_nav_item}><Link href="/"><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
+                  <li className={styles.footer_nav_item}><Link href="/"><a className={styles.footer_nav_link}>lorem ipsum</a></Link></li>
               </ul>
             </div>
 

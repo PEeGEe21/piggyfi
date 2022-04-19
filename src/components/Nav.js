@@ -16,19 +16,19 @@ export default function Nav({children}) {
 
                             </li>
                             <li className={styles.nav_item}>
-                                <Link href="">
+                                <Link href="/">
                                 <a className={styles.nav_link}>FAQs</a>
                                 </Link>
                                 
                             </li>
                             <li className={styles.nav_item}>
-                                <Link href="">
+                                <Link href="/">
                                     <a className={styles.nav_link}>Support</a>
                                 </Link>
                                 
                             </li>
                             <li className={styles.nav_item}>
-                                <Link href="">
+                                <Link href="/">
                                 <a className={styles.nav_link}>Contact</a>
                                 </Link>
                             </li>
